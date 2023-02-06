@@ -1,3 +1,3 @@
-export const clientId = 'experiments'
+export const clientId = 'experiment'
 
-export const brokers = ['kafka:9092']
+export const brokers = ['broker:9092']

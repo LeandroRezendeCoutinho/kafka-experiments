@@ -14,7 +14,7 @@ export default class KafkaConsumer {
 
         await this.consumer.run({
             eachMessage: async ({ topic, partition, message }) => {
-                console.log(message.value?.toString())                
+                console.log(`Topic: ${topic}`, `Message ${message.value?.toString() }` )                
             }
         })
     }
